@@ -16,6 +16,7 @@ INSTRUCTIONS
 *Download and unzip the LibraryProject_ANDROID
 
 *Change APIHost in the Base.java:  Library /src /br /com /rubythree /library /models /Base.java
+
  line 5:  public static String APIHost  = "192.168.0.10:3000" ;
  - change to: public static String APIHost  = "<address IP>:3000" ;
  
