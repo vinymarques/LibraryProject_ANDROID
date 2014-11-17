@@ -11,7 +11,9 @@ API: https://github.com/vinymarques/LibraryProject_API
 INSTRUCTIONS
 
 *Download and unzip the LibraryProject_API
+
 -Start the web service (command): cd <directory API>  ->  rails server
+
 
 *Download and unzip the LibraryProject_ANDROID
 
