@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_black">
+
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/blue_black" >
+
+  	<LinearLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="534dp"
+  	    android:background="@color/blue_black"
+  	    android:orientation="vertical" >
+
+  	    <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:background="@color/blue_black" >
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:gravity="center"
+               android:text="@string/register_account"
+               android:textColor="@color/white"
+               android:textSize="30sp" />
+
+       </RelativeLayout>
+
+  	    <LinearLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="10dp"
+  	        android:background="@color/black"
+  	        android:orientation="vertical" >
+  	    </LinearLayout>
+
+  	    <TextView
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_marginLeft="16dp"
+  	        android:layout_marginTop="10dp"
+  	        android:text="@string/name"
+  	        android:textColor="@color/white"
+  	        android:textSize="7pt" />
+
+  	    	<EditText
+  	            android:id="@+id/register_name"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_marginLeft="15dp"
+  	            android:hint="@string/name"
+  	            android:layout_marginBottom="10dp"
+  	            android:inputType="textCapWords" />
+  	    
+		<LinearLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="1dp"
+  	        android:background="@color/white"
+  	        android:orientation="vertical" >
+  	    </LinearLayout>
+  	        
+		<TextView
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_marginLeft="16dp"
+  	        android:layout_marginTop="10dp"
+  	        android:text="@string/email"
+  	        android:textColor="@color/white"
+  	        android:textSize="7pt" />
+		
+		 <EditText
+  	        android:id="@+id/register_email"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:layout_marginLeft="15dp"
+  	        android:layout_marginBottom="10dp"
+  	        android:inputType="textEmailAddress"
+  	        android:hint="@string/email" />
+		 
+		<LinearLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="1dp"
+  	        android:background="@color/white"
+  	        android:orientation="vertical" >
+  	    </LinearLayout>
+  	    
+		<TextView
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_marginLeft="16dp"
+  	        android:layout_marginTop="10dp"
+  	        android:text="@string/address"
+  	        android:textColor="@color/white"
+  	        android:textSize="7pt" />
+
+  	    	<EditText
+  	            android:id="@+id/register_address"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_marginLeft="15dp"
+  	            android:hint="@string/address"
+  	            android:layout_marginBottom="10dp"
+  	            android:inputType="textCapWords" />
+  	    
+		<LinearLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="1dp"
+  	        android:background="@color/white"
+  	        android:orientation="vertical" >
+  	    </LinearLayout>
+
+  	    <RelativeLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:background="@color/blue_black"
+  	        android:layout_marginBottom="10dp"
+  	        android:orientation="vertical" >
+
+  	        <TextView
+  	            android:id="@+id/lbl_pass"
+  	            android:layout_width="match_parent"
+  	            android:layout_height="wrap_content"
+  	            android:layout_marginLeft="16dp"
+  	            android:layout_marginTop="10dp"
+  	            android:text="@string/pass"
+  	            android:textColor="@color/white"
+  	            android:textSize="7pt" />
+  	        
+  	        <EditText
+  	            android:id="@+id/register_pass"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_below="@+id/lbl_pass"
+  	            android:layout_marginLeft="15dp"
+  	            android:hint="@string/pass"
+  	            android:layout_marginBottom="10dp"
+  	            android:inputType="textPassword" />
+  	            
+  	        <ImageView
+  	            android:id="@+id/register_valid_pass"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_alignTop="@+id/register_pass"
+  	            android:layout_marginLeft="10dp"
+  	            android:layout_toRightOf="@+id/register_pass"
+  	            android:contentDescription="@string/image_description" />
+  	    
+		<LinearLayout
+		    android:id="@+id/linear_pass"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="1dp"
+  	        android:background="@color/white"
+  	        android:layout_below="@+id/register_pass"
+  	        android:orientation="vertical" >
+  	    </LinearLayout>
+  	    
+		<TextView
+		    android:id="@+id/lbl_confirmation_pass"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_marginLeft="16dp"
+  	        android:layout_marginTop="10dp"
+  	        android:layout_below="@+id/linear_pass"
+  	        android:text="@string/confirmation_pass"
+  	        android:textColor="@color/white"
+  	        android:textSize="7pt" />
+
+  	    <EditText
+            android:id="@+id/register_confirmation_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/lbl_confirmation_pass"
+            android:hint="@string/confirmation"
+            android:inputType="textPassword" />
+  	    
+  	    <ImageView
+            android:id="@+id/register_valid_confirmation_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/register_confirmation_pass"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/register_confirmation_pass"
+            android:contentDescription="@string/image_description"/>
+  	    
+		</RelativeLayout>
+  	    <RelativeLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:background="@color/black" >
+
+  	        <Button
+  	            android:id="@+id/register_return"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_alignParentRight="true"
+  	            android:layout_marginBottom="5dp"
+  	            android:layout_marginRight="5dp"
+  	            android:layout_marginTop="10dp"
+  	            android:text="@string/returnn" />
+
+  	        <Button
+  	            android:id="@+id/register_register"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_alignParentLeft="true"
+  	            android:layout_marginBottom="5dp"
+  	            android:layout_marginLeft="5dp"
+  	            android:layout_marginTop="10dp"
+  	            android:text="@string/register" />
+  	    </RelativeLayout>
+  	</LinearLayout>
+</ScrollView>
+</RelativeLayout>

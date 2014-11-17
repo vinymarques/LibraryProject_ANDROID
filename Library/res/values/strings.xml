@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Library</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_description">Image</string>
+    <string name="register_account">Registrar-se</string>
+    <string name="logon">Entrar</string>
+    <string name="email">Email</string>
+    <string name="pass">Senha</string>
+    <string name="current_pass">Senha Atual</string>
+    <string name="new_pass">Nova Senha</string>
+    <string name="name">Nome</string>
+    <string name="address">Endereço</string>
+    <string name="confirmation_pass">Confirmação da Senha</string>
+    <string name="confirmation">Confirmação</string>
+    <string name="confirm">Confirmar</string>
+    <string name="register">Registrar</string>
+    <string name="alter">Alterar</string>
+    <string name="returnn">Retornar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="exclude">Excluindo ...</string>
+    <string name="register_book">Registro de Livro</string>
+    <string name="alter_book">Alteração de Livro</string>
+    <string name="find">Procurar</string>
+    <string name="autor">Autor</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="alugar">Alugar</string>
+    <string name="unavailable">Livro Indisponível</string>
+    <string name="disponiveis">Disponíveis</string>
+    <string name="descricao">Descrição</string>
+    <string name="alugados">Alugados</string>
+    <string name="title_network_information">Verifique sua conexão com a Internet.</string>
+    <string name="text_network_information">Para utilizar a Biblioteca Online você precisa estar conectado.</string>
+    <string name="verify_connection">Verificar Conexão</string>
+    <string name="alter_pass">Alterar Senha</string>
+    <string name="alter_pass_title">Alteração de senha</string>
+    <string name="deactivate_account_title">Desativação da Conta</string>
+    <string name="deactivate_account">Desativar Conta</string>
+    <string name="log_out">Finalisar Sessão</string>
+    
+    
+
+</resources>

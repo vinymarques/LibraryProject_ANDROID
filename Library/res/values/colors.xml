@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFAFA</color>
+    <color name="btn_color">#6CA6CD</color>
+    <color name="black">#000000</color>
+    <color name="black_white">#333333</color>
+    <color name="black_white_w">#666666</color>
+    <color name="black_white_ww">#696969</color>
+    <color name="transparent">#80000000</color>
+    <color name="tela_grey">#BEBEBE</color>
+    <color name="blue">#4682B4</color>
+    <color name="grey_black">#2F4F4F</color>
+    <color name="blue_black">#18313C</color>
+    <color name="grey_white">#D9D9F3</color>
+    <color name="dialog_bg">#0C3748</color>
+</resources>

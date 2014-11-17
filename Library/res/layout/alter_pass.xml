@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_black"
+    android:orientation="vertical" >
+        
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:background="@color/blue_black" >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:gravity="center"
+           android:text="@string/alter_pass_title"
+           android:textColor="@color/white"
+           android:textSize="20sp" />
+   </RelativeLayout>
+   
+   		<LinearLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="10dp"
+  	        android:background="@color/black"
+  	        android:orientation="vertical" >
+  	    </LinearLayout>
+    
+   	<RelativeLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:background="@color/blue_black"
+  	        android:layout_marginBottom="10dp"
+  	        android:orientation="vertical" >
+       
+	    <TextView
+	        android:id="@+id/lbl_current_pass"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/current_pass"
+	        android:textColor="@color/white"
+	        android:textSize="7pt" />
+	    
+	    <EditText
+		    android:id="@+id/current_pass"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:hint="@string/pass"
+		    android:layout_marginBottom="10dp"
+		    android:layout_below="@+id/lbl_current_pass"
+		    android:inputType="textPassword" />
+	    
+		<LinearLayout
+		    android:id="@+id/linear_pass"
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="@color/white"
+	        android:layout_below="@+id/current_pass"
+	        android:orientation="vertical" >
+	    </LinearLayout>
+
+  	        <TextView
+  	            android:id="@+id/lbl_new_pass"
+  	            android:layout_width="match_parent"
+  	            android:layout_height="wrap_content"
+  	            android:layout_marginLeft="16dp"
+  	            android:layout_marginTop="10dp"
+  	            android:text="@string/new_pass"
+  	            android:textColor="@color/white"
+  	            android:layout_below="@+id/current_pass"
+  	            android:textSize="7pt" />
+  	        
+  	        <EditText
+  	            android:id="@+id/new_pass"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_below="@+id/lbl_new_pass"
+  	            android:layout_marginLeft="15dp"
+  	            android:hint="@string/pass"
+  	            android:layout_marginBottom="10dp"
+  	            android:inputType="textPassword" />
+  	            
+  	        <ImageView
+  	            android:id="@+id/valid_new_pass"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_alignTop="@+id/new_pass"
+  	            android:layout_marginLeft="10dp"
+  	            android:layout_toRightOf="@+id/new_pass"
+  	            android:contentDescription="@string/image_description" />
+  	    
+		<LinearLayout
+		    android:id="@+id/linear_pass1"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="1dp"
+  	        android:background="@color/white"
+  	        android:layout_below="@+id/new_pass"
+  	        android:orientation="vertical" >
+  	    </LinearLayout>
+  	    
+		<TextView
+		    android:id="@+id/lbl_confirmation_pass"
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_marginLeft="16dp"
+  	        android:layout_marginTop="10dp"
+  	        android:layout_below="@+id/linear_pass1"
+  	        android:text="@string/confirmation_pass"
+  	        android:textColor="@color/white"
+  	        android:textSize="7pt" />
+
+  	    <EditText
+            android:id="@+id/confirmation_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/lbl_confirmation_pass"
+            android:hint="@string/confirmation"
+            android:inputType="textPassword" />
+  	    
+  	    <ImageView
+            android:id="@+id/valid_confirmation_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/confirmation_pass"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/confirmation_pass"
+            android:contentDescription="@string/image_description"/>
+  	    
+		</RelativeLayout>
+  	    
+  	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@color/blue_black">
+  	    
+  	        <RelativeLayout
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        android:layout_alignParentBottom="true"
+  	        android:background="@color/black" >
+
+  	        <Button
+  	            android:id="@+id/btn_return"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_alignParentRight="true"
+  	            android:layout_marginBottom="5dp"
+  	            android:layout_marginRight="5dp"
+  	            android:layout_marginTop="10dp"
+  	            android:text="@string/returnn" />
+
+  	        <Button
+  	            android:id="@+id/btn_register"
+  	            android:layout_width="wrap_content"
+  	            android:layout_height="wrap_content"
+  	            android:layout_alignParentLeft="true"
+  	            android:layout_marginBottom="5dp"
+  	            android:layout_marginLeft="5dp"
+  	            android:layout_marginTop="10dp"
+  	            android:text="@string/alter" />
+  	    </RelativeLayout>
+    	</RelativeLayout>
+</LinearLayout>
